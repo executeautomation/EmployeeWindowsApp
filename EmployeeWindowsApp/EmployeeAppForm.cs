@@ -24,9 +24,17 @@ namespace EmployeeWindowsApp
 
         public void DetectLongServeEmployee()
         {
-            var result = employeeModel.Employees.OrderByDescending(x => x.DurationWorked).First();
+            if (employeeModel.Employees.Count() > 0)
+            {
 
-            lblLongServeEmployee.Text = result.Name;
+                var result = employeeModel.Employees.OrderByDescending(x => x.DurationWorked).First();
+
+                lblLongServeEmployee.Text = result.Name;
+            }
+            else
+            {
+                lblLongServeEmployee.Text = "No Employee found !!!";
+            }
 
         }
 
