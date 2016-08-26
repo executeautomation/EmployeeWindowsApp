@@ -1,2 +1,0 @@
-F:\EAGit\EmployeeWindowsApp\EmployeeWindowsApp\bin\Debug\EmployeeWindowsApp.exe.config
-C:\Users\Karthik\Source\Repos\EmployeeWindowsApp\EmployeeWindowsApp\bin\Debug\EmployeeWindowsApp.exe.config
